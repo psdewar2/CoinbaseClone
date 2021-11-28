@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article renders without crashing 1`] = `
+<RNCSafeAreaView
+  style={
+    Object {
+      "flex": 1,
+      "justifyContent": "space-between",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginBottom": 14,
+        "marginHorizontal": 14,
+        "marginTop": 6,
+      }
+    }
+  >
+    <RNGestureHandlerButton
+      collapsable={false}
+      onGestureEvent={[Function]}
+      onGestureHandlerEvent={[Function]}
+      onGestureHandlerStateChange={[Function]}
+      onHandlerStateChange={[Function]}
+      rippleColor={0}
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        nativeID="animatedComponent"
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#4169e1",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+        >
+          Close
+        </Text>
+      </View>
+    </RNGestureHandlerButton>
+    <Text
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "rgb(28, 28, 30)",
+          "flex": 1,
+          "fontSize": 16,
+          "fontWeight": "600",
+          "paddingHorizontal": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      coinbase.com
+    </Text>
+    <RNGestureHandlerButton
+      collapsable={false}
+      onGestureEvent={[Function]}
+      onGestureHandlerEvent={[Function]}
+      onGestureHandlerStateChange={[Function]}
+      onHandlerStateChange={[Function]}
+      rippleColor={0}
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        nativeID="animatedComponent"
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#4169e1",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+        >
+          Reload
+        </Text>
+      </View>
+    </RNGestureHandlerButton>
+  </View>
+  <View
+    style={
+      Object {
+        "borderColor": "#4169e1",
+        "borderWidth": 2,
+        "opacity": 0,
+        "width": "0%",
+      }
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        },
+        undefined,
+      ]
+    }
+  >
+    <RNCWebView
+      cacheEnabled={true}
+      injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
+      injectedJavaScriptForMainFrameOnly={true}
+      javaScriptEnabled={true}
+      messagingEnabled={false}
+      onContentProcessDidTerminate={[Function]}
+      onHttpError={[Function]}
+      onLoadProgress={[Function]}
+      onLoadingError={[Function]}
+      onLoadingFinish={[Function]}
+      onLoadingProgress={[Function]}
+      onLoadingStart={[Function]}
+      onMessage={[Function]}
+      onShouldStartLoadWithRequest={[Function]}
+      source={
+        Object {
+          "uri": "https://coinbase.com",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "flex": 1,
+            "overflow": "hidden",
+          },
+          Object {
+            "backgroundColor": "#ffffff",
+          },
+          undefined,
+        ]
+      }
+      useSharedProcessPool={true}
+    />
+  </View>
+</RNCSafeAreaView>
+`;

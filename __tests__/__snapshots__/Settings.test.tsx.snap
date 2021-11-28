@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Settings renders without crashing 1`] = `
+<RNCSafeAreaView>
+  <Text
+    style={
+      Object {
+        "color": "rgb(28, 28, 30)",
+      }
+    }
+  >
+    For You
+  </Text>
+</RNCSafeAreaView>
+`;

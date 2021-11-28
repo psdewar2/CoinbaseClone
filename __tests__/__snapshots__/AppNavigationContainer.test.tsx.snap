@@ -1,0 +1,2880 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppNavigationContainer renders without crashing 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNCSafeAreaProvider
+    onInsetsChange={[Function]}
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "rgb(242, 242, 242)",
+                "flex": 1,
+              },
+              undefined,
+            ]
+          }
+        >
+          <RNSScreenContainer
+            onLayout={[Function]}
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <RNSScreen
+              activityState={2}
+              forwardedRef={[Function]}
+              pointerEvents="box-none"
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                collapsable={false}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              />
+              <View
+                accessibilityElementsHidden={false}
+                closing={false}
+                gestureVelocityImpact={0.3}
+                importantForAccessibility="auto"
+                onClose={[Function]}
+                onGestureBegin={[Function]}
+                onGestureCanceled={[Function]}
+                onGestureEnd={[Function]}
+                onOpen={[Function]}
+                onTransition={[Function]}
+                pointerEvents="box-none"
+                style={
+                  Array [
+                    Object {
+                      "display": "flex",
+                      "overflow": undefined,
+                    },
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                  ]
+                }
+                transitionSpec={
+                  Object {
+                    "close": Object {
+                      "animation": "spring",
+                      "config": Object {
+                        "damping": 500,
+                        "mass": 3,
+                        "overshootClamping": true,
+                        "restDisplacementThreshold": 10,
+                        "restSpeedThreshold": 10,
+                        "stiffness": 1000,
+                      },
+                    },
+                    "open": Object {
+                      "animation": "spring",
+                      "config": Object {
+                        "damping": 500,
+                        "mass": 3,
+                        "overshootClamping": true,
+                        "restDisplacementThreshold": 10,
+                        "restSpeedThreshold": 10,
+                        "stiffness": 1000,
+                      },
+                    },
+                  }
+                }
+              >
+                <View
+                  collapsable={false}
+                  nativeID="animatedComponent"
+                  pointerEvents="box-none"
+                  style={
+                    Object {
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <View
+                    collapsable={false}
+                    forwardedRef={[Function]}
+                    needsOffscreenAlphaCompositing={false}
+                    onGestureHandlerEvent={[Function]}
+                    onGestureHandlerStateChange={[Function]}
+                    style={
+                      Object {
+                        "flex": 1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "flex": 1,
+                            "overflow": "hidden",
+                          },
+                          Array [
+                            Object {
+                              "backgroundColor": "rgb(242, 242, 242)",
+                            },
+                            undefined,
+                          ],
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "flex": 1,
+                            "flexDirection": "column-reverse",
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Object {
+                              "flex": 1,
+                            }
+                          }
+                        >
+                          <View
+                            style={
+                              Array [
+                                Object {
+                                  "flex": 1,
+                                },
+                                undefined,
+                              ]
+                            }
+                          >
+                            <RNSScreenContainer
+                              style={
+                                Object {
+                                  "flex": 1,
+                                  "overflow": "hidden",
+                                }
+                              }
+                            >
+                              <RNSScreen
+                                activityState={2}
+                                collapsable={false}
+                                forwardedRef={[Function]}
+                                nativeID="animatedComponent"
+                                style={
+                                  Object {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "position": "absolute",
+                                    "right": 0,
+                                    "top": 0,
+                                    "zIndex": 0,
+                                  }
+                                }
+                              >
+                                <View
+                                  accessibilityElementsHidden={false}
+                                  importantForAccessibility="auto"
+                                  style={
+                                    Array [
+                                      Object {
+                                        "backgroundColor": "rgb(242, 242, 242)",
+                                        "flex": 1,
+                                      },
+                                      Array [
+                                        Object {
+                                          "flex": 1,
+                                          "flexDirection": "column-reverse",
+                                        },
+                                        undefined,
+                                      ],
+                                    ]
+                                  }
+                                >
+                                  <View
+                                    style={
+                                      Object {
+                                        "flex": 1,
+                                      }
+                                    }
+                                  >
+                                    <RNCSafeAreaView
+                                      edges={
+                                        Array [
+                                          "top",
+                                        ]
+                                      }
+                                      style={
+                                        Object {
+                                          "backgroundColor": "#FFF",
+                                          "flex": 1,
+                                        }
+                                      }
+                                    >
+                                      <RCTScrollView>
+                                        <View>
+                                          <View
+                                            style={
+                                              Object {
+                                                "alignItems": "center",
+                                                "justifyContent": "center",
+                                                "paddingTop": 50,
+                                              }
+                                            }
+                                          >
+                                            <Image
+                                              source={
+                                                Object {
+                                                  "testUri": "../../../assets/wallet.jpeg",
+                                                }
+                                              }
+                                              style={
+                                                Object {
+                                                  "height": 220,
+                                                  "width": 220,
+                                                }
+                                              }
+                                            />
+                                            <Text
+                                              style={
+                                                Object {
+                                                  "color": "rgb(28, 28, 30)",
+                                                  "fontSize": 20,
+                                                  "fontWeight": "600",
+                                                  "paddingTop": 10,
+                                                }
+                                              }
+                                            >
+                                              Welcome to coinbase
+                                            </Text>
+                                            <Text
+                                              style={
+                                                Object {
+                                                  "color": "#5d616d",
+                                                  "fontSize": 16,
+                                                  "fontWeight": "400",
+                                                  "paddingTop": 10,
+                                                }
+                                              }
+                                            >
+                                              Make your first investment today
+                                            </Text>
+                                            <View
+                                              style={
+                                                Object {
+                                                  "paddingTop": 30,
+                                                }
+                                              }
+                                            >
+                                              <View
+                                                accessibilityState={
+                                                  Object {
+                                                    "disabled": true,
+                                                  }
+                                                }
+                                                accessible={true}
+                                                collapsable={false}
+                                                focusable={false}
+                                                nativeID="animatedComponent"
+                                                onClick={[Function]}
+                                                onResponderGrant={[Function]}
+                                                onResponderMove={[Function]}
+                                                onResponderRelease={[Function]}
+                                                onResponderTerminate={[Function]}
+                                                onResponderTerminationRequest={[Function]}
+                                                onStartShouldSetResponder={[Function]}
+                                                style={
+                                                  Object {
+                                                    "backgroundColor": "#2150f5",
+                                                    "borderRadius": 8,
+                                                    "opacity": 1,
+                                                    "paddingHorizontal": 100,
+                                                    "paddingVertical": 17,
+                                                  }
+                                                }
+                                              >
+                                                <Text
+                                                  style={
+                                                    Object {
+                                                      "alignSelf": "center",
+                                                      "color": "white",
+                                                      "fontSize": 16,
+                                                      "fontWeight": "600",
+                                                    }
+                                                  }
+                                                >
+                                                  Fund Account
+                                                </Text>
+                                              </View>
+                                            </View>
+                                          </View>
+                                          <View
+                                            style={
+                                              Object {
+                                                "marginTop": 30,
+                                                "paddingHorizontal": 30,
+                                              }
+                                            }
+                                          >
+                                            <Text
+                                              style={
+                                                Object {
+                                                  "color": "rgb(28, 28, 30)",
+                                                  "fontSize": 18,
+                                                  "fontWeight": "bold",
+                                                  "paddingTop": 10,
+                                                }
+                                              }
+                                            >
+                                              Watchlist
+                                            </Text>
+                                            <View
+                                              style={
+                                                Object {
+                                                  "paddingTop": 10,
+                                                }
+                                              }
+                                            >
+                                              <View
+                                                style={
+                                                  Object {
+                                                    "backgroundColor": "#FFF",
+                                                    "borderColor": "rgb(216, 216, 216)",
+                                                    "borderRadius": 10,
+                                                    "borderWidth": 0.5,
+                                                    "width": "100%",
+                                                  }
+                                                }
+                                              >
+                                                <View>
+                                                  <View>
+                                                    <View
+                                                      style={
+                                                        Object {
+                                                          "flexDirection": "row",
+                                                          "justifyContent": "space-between",
+                                                          "paddingBottom": 20,
+                                                          "paddingHorizontal": 15,
+                                                          "paddingTop": 15,
+                                                        }
+                                                      }
+                                                    >
+                                                      <View>
+                                                        <Image
+                                                          source={
+                                                            Object {
+                                                              "uri": "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@9ab8d6934b83a4aa8ae5e8711609a70ca0ab1b2b/128/color/eth.png",
+                                                            }
+                                                          }
+                                                          style={
+                                                            Object {
+                                                              "borderColor": "rgb(216, 216, 216)",
+                                                              "borderRadius": 16,
+                                                              "borderWidth": 0.5,
+                                                              "height": 32,
+                                                              "width": 32,
+                                                            }
+                                                          }
+                                                        />
+                                                      </View>
+                                                      <View
+                                                        style={
+                                                          Object {
+                                                            "flex": 1,
+                                                            "paddingLeft": 15,
+                                                          }
+                                                        }
+                                                      >
+                                                        <Text
+                                                          style={
+                                                            Object {
+                                                              "color": "rgb(28, 28, 30)",
+                                                              "fontSize": 16,
+                                                              "fontWeight": "400",
+                                                            }
+                                                          }
+                                                        >
+                                                          Ethereum
+                                                        </Text>
+                                                        <Text
+                                                          style={
+                                                            Object {
+                                                              "color": "#5d616d",
+                                                              "fontSize": 15,
+                                                              "fontWeight": "400",
+                                                            }
+                                                          }
+                                                        >
+                                                          ETH
+                                                        </Text>
+                                                      </View>
+                                                      <View
+                                                        style={
+                                                          Object {
+                                                            "alignItems": "flex-end",
+                                                          }
+                                                        }
+                                                      >
+                                                        <Text
+                                                          style={
+                                                            Object {
+                                                              "color": "rgb(28, 28, 30)",
+                                                              "fontSize": 16,
+                                                            }
+                                                          }
+                                                        >
+                                                          $
+                                                          4067.87
+                                                        </Text>
+                                                        <Text
+                                                          style={
+                                                            Object {
+                                                              "color": "#e74c3c",
+                                                              "fontSize": 12,
+                                                            }
+                                                          }
+                                                        >
+                                                          -1.26
+                                                          %
+                                                        </Text>
+                                                      </View>
+                                                    </View>
+                                                  </View>
+                                                  <View>
+                                                    <View
+                                                      style={
+                                                        Object {
+                                                          "flexDirection": "row",
+                                                          "justifyContent": "space-between",
+                                                          "paddingBottom": 20,
+                                                          "paddingHorizontal": 15,
+                                                          "paddingTop": 15,
+                                                        }
+                                                      }
+                                                    >
+                                                      <View>
+                                                        <Image
+                                                          source={
+                                                            Object {
+                                                              "uri": "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@9ab8d6934b83a4aa8ae5e8711609a70ca0ab1b2b/128/color/xrp.png",
+                                                            }
+                                                          }
+                                                          style={
+                                                            Object {
+                                                              "borderColor": "rgb(216, 216, 216)",
+                                                              "borderRadius": 16,
+                                                              "borderWidth": 0.5,
+                                                              "height": 32,
+                                                              "width": 32,
+                                                            }
+                                                          }
+                                                        />
+                                                      </View>
+                                                      <View
+                                                        style={
+                                                          Object {
+                                                            "flex": 1,
+                                                            "paddingLeft": 15,
+                                                          }
+                                                        }
+                                                      >
+                                                        <Text
+                                                          style={
+                                                            Object {
+                                                              "color": "rgb(28, 28, 30)",
+                                                              "fontSize": 16,
+                                                              "fontWeight": "400",
+                                                            }
+                                                          }
+                                                        >
+                                                          XRP
+                                                        </Text>
+                                                        <Text
+                                                          style={
+                                                            Object {
+                                                              "color": "#5d616d",
+                                                              "fontSize": 15,
+                                                              "fontWeight": "400",
+                                                            }
+                                                          }
+                                                        >
+                                                          XRP
+                                                        </Text>
+                                                      </View>
+                                                      <View
+                                                        style={
+                                                          Object {
+                                                            "alignItems": "flex-end",
+                                                          }
+                                                        }
+                                                      >
+                                                        <Text
+                                                          style={
+                                                            Object {
+                                                              "color": "rgb(28, 28, 30)",
+                                                              "fontSize": 16,
+                                                            }
+                                                          }
+                                                        >
+                                                          $
+                                                          0.93
+                                                        </Text>
+                                                        <Text
+                                                          style={
+                                                            Object {
+                                                              "color": "#e74c3c",
+                                                              "fontSize": 12,
+                                                            }
+                                                          }
+                                                        >
+                                                          -3.74
+                                                          %
+                                                        </Text>
+                                                      </View>
+                                                    </View>
+                                                  </View>
+                                                  <View>
+                                                    <View
+                                                      style={
+                                                        Object {
+                                                          "flexDirection": "row",
+                                                          "justifyContent": "space-between",
+                                                          "paddingBottom": 20,
+                                                          "paddingHorizontal": 15,
+                                                          "paddingTop": 15,
+                                                        }
+                                                      }
+                                                    >
+                                                      <View>
+                                                        <Image
+                                                          source={
+                                                            Object {
+                                                              "uri": "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@9ab8d6934b83a4aa8ae5e8711609a70ca0ab1b2b/128/color/bch.png",
+                                                            }
+                                                          }
+                                                          style={
+                                                            Object {
+                                                              "borderColor": "rgb(216, 216, 216)",
+                                                              "borderRadius": 16,
+                                                              "borderWidth": 0.5,
+                                                              "height": 32,
+                                                              "width": 32,
+                                                            }
+                                                          }
+                                                        />
+                                                      </View>
+                                                      <View
+                                                        style={
+                                                          Object {
+                                                            "flex": 1,
+                                                            "paddingLeft": 15,
+                                                          }
+                                                        }
+                                                      >
+                                                        <Text
+                                                          style={
+                                                            Object {
+                                                              "color": "rgb(28, 28, 30)",
+                                                              "fontSize": 16,
+                                                              "fontWeight": "400",
+                                                            }
+                                                          }
+                                                        >
+                                                          Bitcoin Cash
+                                                        </Text>
+                                                        <Text
+                                                          style={
+                                                            Object {
+                                                              "color": "#5d616d",
+                                                              "fontSize": 15,
+                                                              "fontWeight": "400",
+                                                            }
+                                                          }
+                                                        >
+                                                          BCH
+                                                        </Text>
+                                                      </View>
+                                                      <View
+                                                        style={
+                                                          Object {
+                                                            "alignItems": "flex-end",
+                                                          }
+                                                        }
+                                                      >
+                                                        <Text
+                                                          style={
+                                                            Object {
+                                                              "color": "rgb(28, 28, 30)",
+                                                              "fontSize": 16,
+                                                            }
+                                                          }
+                                                        >
+                                                          $
+                                                          551.71
+                                                        </Text>
+                                                        <Text
+                                                          style={
+                                                            Object {
+                                                              "color": "#e74c3c",
+                                                              "fontSize": 12,
+                                                            }
+                                                          }
+                                                        >
+                                                          -2.19
+                                                          %
+                                                        </Text>
+                                                      </View>
+                                                    </View>
+                                                  </View>
+                                                  <View>
+                                                    <View
+                                                      style={
+                                                        Object {
+                                                          "flexDirection": "row",
+                                                          "justifyContent": "space-between",
+                                                          "paddingBottom": 20,
+                                                          "paddingHorizontal": 15,
+                                                          "paddingTop": 15,
+                                                        }
+                                                      }
+                                                    >
+                                                      <View>
+                                                        <Image
+                                                          source={
+                                                            Object {
+                                                              "uri": "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@9ab8d6934b83a4aa8ae5e8711609a70ca0ab1b2b/128/color/ltc.png",
+                                                            }
+                                                          }
+                                                          style={
+                                                            Object {
+                                                              "borderColor": "rgb(216, 216, 216)",
+                                                              "borderRadius": 16,
+                                                              "borderWidth": 0.5,
+                                                              "height": 32,
+                                                              "width": 32,
+                                                            }
+                                                          }
+                                                        />
+                                                      </View>
+                                                      <View
+                                                        style={
+                                                          Object {
+                                                            "flex": 1,
+                                                            "paddingLeft": 15,
+                                                          }
+                                                        }
+                                                      >
+                                                        <Text
+                                                          style={
+                                                            Object {
+                                                              "color": "rgb(28, 28, 30)",
+                                                              "fontSize": 16,
+                                                              "fontWeight": "400",
+                                                            }
+                                                          }
+                                                        >
+                                                          Litecoin
+                                                        </Text>
+                                                        <Text
+                                                          style={
+                                                            Object {
+                                                              "color": "#5d616d",
+                                                              "fontSize": 15,
+                                                              "fontWeight": "400",
+                                                            }
+                                                          }
+                                                        >
+                                                          LTC
+                                                        </Text>
+                                                      </View>
+                                                      <View
+                                                        style={
+                                                          Object {
+                                                            "alignItems": "flex-end",
+                                                          }
+                                                        }
+                                                      >
+                                                        <Text
+                                                          style={
+                                                            Object {
+                                                              "color": "rgb(28, 28, 30)",
+                                                              "fontSize": 16,
+                                                            }
+                                                          }
+                                                        >
+                                                          $
+                                                          189.73
+                                                        </Text>
+                                                        <Text
+                                                          style={
+                                                            Object {
+                                                              "color": "#e74c3c",
+                                                              "fontSize": 12,
+                                                            }
+                                                          }
+                                                        >
+                                                          -3.56
+                                                          %
+                                                        </Text>
+                                                      </View>
+                                                    </View>
+                                                  </View>
+                                                  <View>
+                                                    <View
+                                                      style={
+                                                        Object {
+                                                          "flexDirection": "row",
+                                                          "justifyContent": "space-between",
+                                                          "paddingBottom": 20,
+                                                          "paddingHorizontal": 15,
+                                                          "paddingTop": 15,
+                                                        }
+                                                      }
+                                                    >
+                                                      <View>
+                                                        <Image
+                                                          source={
+                                                            Object {
+                                                              "uri": "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@9ab8d6934b83a4aa8ae5e8711609a70ca0ab1b2b/128/color/xlm.png",
+                                                            }
+                                                          }
+                                                          style={
+                                                            Object {
+                                                              "borderColor": "rgb(216, 216, 216)",
+                                                              "borderRadius": 16,
+                                                              "borderWidth": 0.5,
+                                                              "height": 32,
+                                                              "width": 32,
+                                                            }
+                                                          }
+                                                        />
+                                                      </View>
+                                                      <View
+                                                        style={
+                                                          Object {
+                                                            "flex": 1,
+                                                            "paddingLeft": 15,
+                                                          }
+                                                        }
+                                                      >
+                                                        <Text
+                                                          style={
+                                                            Object {
+                                                              "color": "rgb(28, 28, 30)",
+                                                              "fontSize": 16,
+                                                              "fontWeight": "400",
+                                                            }
+                                                          }
+                                                        >
+                                                          Stellar Lumens
+                                                        </Text>
+                                                        <Text
+                                                          style={
+                                                            Object {
+                                                              "color": "#5d616d",
+                                                              "fontSize": 15,
+                                                              "fontWeight": "400",
+                                                            }
+                                                          }
+                                                        >
+                                                          XLM
+                                                        </Text>
+                                                      </View>
+                                                      <View
+                                                        style={
+                                                          Object {
+                                                            "alignItems": "flex-end",
+                                                          }
+                                                        }
+                                                      >
+                                                        <Text
+                                                          style={
+                                                            Object {
+                                                              "color": "rgb(28, 28, 30)",
+                                                              "fontSize": 16,
+                                                            }
+                                                          }
+                                                        >
+                                                          $
+                                                          0.31
+                                                        </Text>
+                                                        <Text
+                                                          style={
+                                                            Object {
+                                                              "color": "#e74c3c",
+                                                              "fontSize": 12,
+                                                            }
+                                                          }
+                                                        >
+                                                          -3.48
+                                                          %
+                                                        </Text>
+                                                      </View>
+                                                    </View>
+                                                  </View>
+                                                  <View>
+                                                    <View
+                                                      style={
+                                                        Object {
+                                                          "flexDirection": "row",
+                                                          "justifyContent": "space-between",
+                                                          "paddingBottom": 20,
+                                                          "paddingHorizontal": 15,
+                                                          "paddingTop": 15,
+                                                        }
+                                                      }
+                                                    >
+                                                      <View>
+                                                        <Image
+                                                          source={
+                                                            Object {
+                                                              "uri": "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@9ab8d6934b83a4aa8ae5e8711609a70ca0ab1b2b/128/color/btc.png",
+                                                            }
+                                                          }
+                                                          style={
+                                                            Object {
+                                                              "borderColor": "rgb(216, 216, 216)",
+                                                              "borderRadius": 16,
+                                                              "borderWidth": 0.5,
+                                                              "height": 32,
+                                                              "width": 32,
+                                                            }
+                                                          }
+                                                        />
+                                                      </View>
+                                                      <View
+                                                        style={
+                                                          Object {
+                                                            "flex": 1,
+                                                            "paddingLeft": 15,
+                                                          }
+                                                        }
+                                                      >
+                                                        <Text
+                                                          style={
+                                                            Object {
+                                                              "color": "rgb(28, 28, 30)",
+                                                              "fontSize": 16,
+                                                              "fontWeight": "400",
+                                                            }
+                                                          }
+                                                        >
+                                                          Bitcoin
+                                                        </Text>
+                                                        <Text
+                                                          style={
+                                                            Object {
+                                                              "color": "#5d616d",
+                                                              "fontSize": 15,
+                                                              "fontWeight": "400",
+                                                            }
+                                                          }
+                                                        >
+                                                          BTC
+                                                        </Text>
+                                                      </View>
+                                                      <View
+                                                        style={
+                                                          Object {
+                                                            "alignItems": "flex-end",
+                                                          }
+                                                        }
+                                                      >
+                                                        <Text
+                                                          style={
+                                                            Object {
+                                                              "color": "rgb(28, 28, 30)",
+                                                              "fontSize": 16,
+                                                            }
+                                                          }
+                                                        >
+                                                          $
+                                                          54248.25
+                                                        </Text>
+                                                        <Text
+                                                          style={
+                                                            Object {
+                                                              "color": "#e74c3c",
+                                                              "fontSize": 12,
+                                                            }
+                                                          }
+                                                        >
+                                                          -1.11
+                                                          %
+                                                        </Text>
+                                                      </View>
+                                                    </View>
+                                                  </View>
+                                                </View>
+                                              </View>
+                                            </View>
+                                          </View>
+                                          <View
+                                            style={
+                                              Object {
+                                                "marginTop": 30,
+                                              }
+                                            }
+                                          >
+                                            <View
+                                              style={
+                                                Object {
+                                                  "paddingHorizontal": 30,
+                                                }
+                                              }
+                                            >
+                                              <Text
+                                                style={
+                                                  Object {
+                                                    "color": "rgb(28, 28, 30)",
+                                                    "fontSize": 18,
+                                                    "fontWeight": "bold",
+                                                    "paddingTop": 10,
+                                                  }
+                                                }
+                                              >
+                                                Top Movers
+                                              </Text>
+                                            </View>
+                                            <RCTScrollView
+                                              horizontal={true}
+                                              showsHorizontalScrollIndicator={false}
+                                              style={
+                                                Object {
+                                                  "paddingTop": 10,
+                                                }
+                                              }
+                                            >
+                                              <View>
+                                                <View
+                                                  style={
+                                                    Object {
+                                                      "marginLeft": 30,
+                                                      "marginRight": 0,
+                                                    }
+                                                  }
+                                                >
+                                                  <View
+                                                    style={
+                                                      Object {
+                                                        "backgroundColor": "#FFF",
+                                                        "borderColor": "rgb(216, 216, 216)",
+                                                        "borderRadius": 10,
+                                                        "borderWidth": 1,
+                                                        "height": 150,
+                                                        "marginRight": 15,
+                                                        "paddingHorizontal": 15,
+                                                        "width": 150,
+                                                      }
+                                                    }
+                                                  >
+                                                    <View>
+                                                      <Image
+                                                        source={
+                                                          Object {
+                                                            "uri": "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@9ab8d6934b83a4aa8ae5e8711609a70ca0ab1b2b/128/color/storj.png",
+                                                          }
+                                                        }
+                                                        style={
+                                                          Object {
+                                                            "borderColor": "rgb(216, 216, 216)",
+                                                            "borderRadius": 16,
+                                                            "borderWidth": 0.5,
+                                                            "height": 32,
+                                                            "marginTop": 15,
+                                                            "width": 32,
+                                                          }
+                                                        }
+                                                      />
+                                                    </View>
+                                                    <View
+                                                      style={
+                                                        Object {
+                                                          "alignItems": "center",
+                                                          "flexDirection": "row",
+                                                          "marginTop": 15,
+                                                        }
+                                                      }
+                                                    >
+                                                      <Text
+                                                        style={
+                                                          Object {
+                                                            "color": "rgb(28, 28, 30)",
+                                                            "fontWeight": "500",
+                                                          }
+                                                        }
+                                                      >
+                                                        STORJ
+                                                      </Text>
+                                                      <Text
+                                                        style={
+                                                          Object {
+                                                            "color": "#5D616D",
+                                                            "fontWeight": "400",
+                                                            "paddingLeft": 5,
+                                                          }
+                                                        }
+                                                      >
+                                                        $
+                                                        2.77
+                                                      </Text>
+                                                    </View>
+                                                    <Text
+                                                      style={
+                                                        Object {
+                                                          "color": "#e74c3c",
+                                                          "fontSize": 27,
+                                                          "fontWeight": "400",
+                                                        }
+                                                      }
+                                                    >
+                                                      -20.95
+                                                      %
+                                                    </Text>
+                                                  </View>
+                                                </View>
+                                                <View
+                                                  style={
+                                                    Object {
+                                                      "marginLeft": 0,
+                                                      "marginRight": 0,
+                                                    }
+                                                  }
+                                                >
+                                                  <View
+                                                    style={
+                                                      Object {
+                                                        "backgroundColor": "#FFF",
+                                                        "borderColor": "rgb(216, 216, 216)",
+                                                        "borderRadius": 10,
+                                                        "borderWidth": 1,
+                                                        "height": 150,
+                                                        "marginRight": 15,
+                                                        "paddingHorizontal": 15,
+                                                        "width": 150,
+                                                      }
+                                                    }
+                                                  >
+                                                    <View>
+                                                      <Image
+                                                        source={
+                                                          Object {
+                                                            "uri": "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@9ab8d6934b83a4aa8ae5e8711609a70ca0ab1b2b/128/color/bat.png",
+                                                          }
+                                                        }
+                                                        style={
+                                                          Object {
+                                                            "borderColor": "rgb(216, 216, 216)",
+                                                            "borderRadius": 16,
+                                                            "borderWidth": 0.5,
+                                                            "height": 32,
+                                                            "marginTop": 15,
+                                                            "width": 32,
+                                                          }
+                                                        }
+                                                      />
+                                                    </View>
+                                                    <View
+                                                      style={
+                                                        Object {
+                                                          "alignItems": "center",
+                                                          "flexDirection": "row",
+                                                          "marginTop": 15,
+                                                        }
+                                                      }
+                                                    >
+                                                      <Text
+                                                        style={
+                                                          Object {
+                                                            "color": "rgb(28, 28, 30)",
+                                                            "fontWeight": "500",
+                                                          }
+                                                        }
+                                                      >
+                                                        BAT
+                                                      </Text>
+                                                      <Text
+                                                        style={
+                                                          Object {
+                                                            "color": "#5D616D",
+                                                            "fontWeight": "400",
+                                                            "paddingLeft": 5,
+                                                          }
+                                                        }
+                                                      >
+                                                        $
+                                                        1.75
+                                                      </Text>
+                                                    </View>
+                                                    <Text
+                                                      style={
+                                                        Object {
+                                                          "color": "#27ae60",
+                                                          "fontSize": 27,
+                                                          "fontWeight": "400",
+                                                        }
+                                                      }
+                                                    >
+                                                      16.25
+                                                      %
+                                                    </Text>
+                                                  </View>
+                                                </View>
+                                                <View
+                                                  style={
+                                                    Object {
+                                                      "marginLeft": 0,
+                                                      "marginRight": 0,
+                                                    }
+                                                  }
+                                                >
+                                                  <View
+                                                    style={
+                                                      Object {
+                                                        "backgroundColor": "#FFF",
+                                                        "borderColor": "rgb(216, 216, 216)",
+                                                        "borderRadius": 10,
+                                                        "borderWidth": 1,
+                                                        "height": 150,
+                                                        "marginRight": 15,
+                                                        "paddingHorizontal": 15,
+                                                        "width": 150,
+                                                      }
+                                                    }
+                                                  >
+                                                    <View>
+                                                      <Image
+                                                        source={
+                                                          Object {
+                                                            "uri": "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@9ab8d6934b83a4aa8ae5e8711609a70ca0ab1b2b/128/color/lpt.png",
+                                                          }
+                                                        }
+                                                        style={
+                                                          Object {
+                                                            "borderColor": "rgb(216, 216, 216)",
+                                                            "borderRadius": 16,
+                                                            "borderWidth": 0.5,
+                                                            "height": 32,
+                                                            "marginTop": 15,
+                                                            "width": 32,
+                                                          }
+                                                        }
+                                                      />
+                                                    </View>
+                                                    <View
+                                                      style={
+                                                        Object {
+                                                          "alignItems": "center",
+                                                          "flexDirection": "row",
+                                                          "marginTop": 15,
+                                                        }
+                                                      }
+                                                    >
+                                                      <Text
+                                                        style={
+                                                          Object {
+                                                            "color": "rgb(28, 28, 30)",
+                                                            "fontWeight": "500",
+                                                          }
+                                                        }
+                                                      >
+                                                        LPT
+                                                      </Text>
+                                                      <Text
+                                                        style={
+                                                          Object {
+                                                            "color": "#5D616D",
+                                                            "fontWeight": "400",
+                                                            "paddingLeft": 5,
+                                                          }
+                                                        }
+                                                      >
+                                                        $
+                                                        57.98
+                                                      </Text>
+                                                    </View>
+                                                    <Text
+                                                      style={
+                                                        Object {
+                                                          "color": "#e74c3c",
+                                                          "fontSize": 27,
+                                                          "fontWeight": "400",
+                                                        }
+                                                      }
+                                                    >
+                                                      -15.24
+                                                      %
+                                                    </Text>
+                                                  </View>
+                                                </View>
+                                                <View
+                                                  style={
+                                                    Object {
+                                                      "marginLeft": 0,
+                                                      "marginRight": 0,
+                                                    }
+                                                  }
+                                                >
+                                                  <View
+                                                    style={
+                                                      Object {
+                                                        "backgroundColor": "#FFF",
+                                                        "borderColor": "rgb(216, 216, 216)",
+                                                        "borderRadius": 10,
+                                                        "borderWidth": 1,
+                                                        "height": 150,
+                                                        "marginRight": 15,
+                                                        "paddingHorizontal": 15,
+                                                        "width": 150,
+                                                      }
+                                                    }
+                                                  >
+                                                    <View>
+                                                      <Image
+                                                        source={
+                                                          Object {
+                                                            "uri": "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@9ab8d6934b83a4aa8ae5e8711609a70ca0ab1b2b/128/color/ltc.png",
+                                                          }
+                                                        }
+                                                        style={
+                                                          Object {
+                                                            "borderColor": "rgb(216, 216, 216)",
+                                                            "borderRadius": 16,
+                                                            "borderWidth": 0.5,
+                                                            "height": 32,
+                                                            "marginTop": 15,
+                                                            "width": 32,
+                                                          }
+                                                        }
+                                                      />
+                                                    </View>
+                                                    <View
+                                                      style={
+                                                        Object {
+                                                          "alignItems": "center",
+                                                          "flexDirection": "row",
+                                                          "marginTop": 15,
+                                                        }
+                                                      }
+                                                    >
+                                                      <Text
+                                                        style={
+                                                          Object {
+                                                            "color": "rgb(28, 28, 30)",
+                                                            "fontWeight": "500",
+                                                          }
+                                                        }
+                                                      >
+                                                        LTC
+                                                      </Text>
+                                                      <Text
+                                                        style={
+                                                          Object {
+                                                            "color": "#5D616D",
+                                                            "fontWeight": "400",
+                                                            "paddingLeft": 5,
+                                                          }
+                                                        }
+                                                      >
+                                                        $
+                                                        123
+                                                      </Text>
+                                                    </View>
+                                                    <Text
+                                                      style={
+                                                        Object {
+                                                          "color": "#e74c3c",
+                                                          "fontSize": 27,
+                                                          "fontWeight": "400",
+                                                        }
+                                                      }
+                                                    >
+                                                      -12
+                                                      %
+                                                    </Text>
+                                                  </View>
+                                                </View>
+                                                <View
+                                                  style={
+                                                    Object {
+                                                      "marginLeft": 0,
+                                                      "marginRight": 0,
+                                                    }
+                                                  }
+                                                >
+                                                  <View
+                                                    style={
+                                                      Object {
+                                                        "backgroundColor": "#FFF",
+                                                        "borderColor": "rgb(216, 216, 216)",
+                                                        "borderRadius": 10,
+                                                        "borderWidth": 1,
+                                                        "height": 150,
+                                                        "marginRight": 15,
+                                                        "paddingHorizontal": 15,
+                                                        "width": 150,
+                                                      }
+                                                    }
+                                                  >
+                                                    <View>
+                                                      <Image
+                                                        source={
+                                                          Object {
+                                                            "uri": "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@9ab8d6934b83a4aa8ae5e8711609a70ca0ab1b2b/128/color/xlm.png",
+                                                          }
+                                                        }
+                                                        style={
+                                                          Object {
+                                                            "borderColor": "rgb(216, 216, 216)",
+                                                            "borderRadius": 16,
+                                                            "borderWidth": 0.5,
+                                                            "height": 32,
+                                                            "marginTop": 15,
+                                                            "width": 32,
+                                                          }
+                                                        }
+                                                      />
+                                                    </View>
+                                                    <View
+                                                      style={
+                                                        Object {
+                                                          "alignItems": "center",
+                                                          "flexDirection": "row",
+                                                          "marginTop": 15,
+                                                        }
+                                                      }
+                                                    >
+                                                      <Text
+                                                        style={
+                                                          Object {
+                                                            "color": "rgb(28, 28, 30)",
+                                                            "fontWeight": "500",
+                                                          }
+                                                        }
+                                                      >
+                                                        XLM
+                                                      </Text>
+                                                      <Text
+                                                        style={
+                                                          Object {
+                                                            "color": "#5D616D",
+                                                            "fontWeight": "400",
+                                                            "paddingLeft": 5,
+                                                          }
+                                                        }
+                                                      >
+                                                        $
+                                                        123
+                                                      </Text>
+                                                    </View>
+                                                    <Text
+                                                      style={
+                                                        Object {
+                                                          "color": "#27ae60",
+                                                          "fontSize": 27,
+                                                          "fontWeight": "400",
+                                                        }
+                                                      }
+                                                    >
+                                                      12
+                                                      %
+                                                    </Text>
+                                                  </View>
+                                                </View>
+                                                <View
+                                                  style={
+                                                    Object {
+                                                      "marginLeft": 0,
+                                                      "marginRight": 30,
+                                                    }
+                                                  }
+                                                >
+                                                  <View
+                                                    style={
+                                                      Object {
+                                                        "backgroundColor": "#FFF",
+                                                        "borderColor": "rgb(216, 216, 216)",
+                                                        "borderRadius": 10,
+                                                        "borderWidth": 1,
+                                                        "height": 150,
+                                                        "marginRight": 15,
+                                                        "paddingHorizontal": 15,
+                                                        "width": 150,
+                                                      }
+                                                    }
+                                                  >
+                                                    <View>
+                                                      <Image
+                                                        source={
+                                                          Object {
+                                                            "uri": "https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@9ab8d6934b83a4aa8ae5e8711609a70ca0ab1b2b/128/color/btc.png",
+                                                          }
+                                                        }
+                                                        style={
+                                                          Object {
+                                                            "borderColor": "rgb(216, 216, 216)",
+                                                            "borderRadius": 16,
+                                                            "borderWidth": 0.5,
+                                                            "height": 32,
+                                                            "marginTop": 15,
+                                                            "width": 32,
+                                                          }
+                                                        }
+                                                      />
+                                                    </View>
+                                                    <View
+                                                      style={
+                                                        Object {
+                                                          "alignItems": "center",
+                                                          "flexDirection": "row",
+                                                          "marginTop": 15,
+                                                        }
+                                                      }
+                                                    >
+                                                      <Text
+                                                        style={
+                                                          Object {
+                                                            "color": "rgb(28, 28, 30)",
+                                                            "fontWeight": "500",
+                                                          }
+                                                        }
+                                                      >
+                                                        BTC
+                                                      </Text>
+                                                      <Text
+                                                        style={
+                                                          Object {
+                                                            "color": "#5D616D",
+                                                            "fontWeight": "400",
+                                                            "paddingLeft": 5,
+                                                          }
+                                                        }
+                                                      >
+                                                        $
+                                                        123
+                                                      </Text>
+                                                    </View>
+                                                    <Text
+                                                      style={
+                                                        Object {
+                                                          "color": "rgb(28, 28, 30)",
+                                                          "fontSize": 27,
+                                                          "fontWeight": "400",
+                                                        }
+                                                      }
+                                                    >
+                                                      0
+                                                      %
+                                                    </Text>
+                                                  </View>
+                                                </View>
+                                              </View>
+                                            </RCTScrollView>
+                                          </View>
+                                          <View
+                                            style={
+                                              Object {
+                                                "marginTop": 30,
+                                                "paddingHorizontal": 30,
+                                              }
+                                            }
+                                          >
+                                            <View
+                                              style={
+                                                Object {
+                                                  "alignItems": "baseline",
+                                                  "flexDirection": "row",
+                                                  "justifyContent": "space-between",
+                                                }
+                                              }
+                                            >
+                                              <Text
+                                                style={
+                                                  Object {
+                                                    "color": "rgb(28, 28, 30)",
+                                                    "fontSize": 18,
+                                                    "fontWeight": "bold",
+                                                    "paddingTop": 10,
+                                                  }
+                                                }
+                                              >
+                                                News
+                                              </Text>
+                                              <View
+                                                accessibilityState={
+                                                  Object {
+                                                    "disabled": true,
+                                                  }
+                                                }
+                                                accessible={true}
+                                                collapsable={false}
+                                                focusable={false}
+                                                nativeID="animatedComponent"
+                                                onClick={[Function]}
+                                                onResponderGrant={[Function]}
+                                                onResponderMove={[Function]}
+                                                onResponderRelease={[Function]}
+                                                onResponderTerminate={[Function]}
+                                                onResponderTerminationRequest={[Function]}
+                                                onStartShouldSetResponder={[Function]}
+                                                style={
+                                                  Object {
+                                                    "opacity": 1,
+                                                  }
+                                                }
+                                              >
+                                                <Text
+                                                  style={
+                                                    Object {
+                                                      "color": "#4169e1",
+                                                      "fontWeight": "600",
+                                                    }
+                                                  }
+                                                >
+                                                  View more
+                                                </Text>
+                                              </View>
+                                            </View>
+                                            <View
+                                              style={
+                                                Object {
+                                                  "paddingVertical": 20,
+                                                }
+                                              }
+                                            >
+                                              <View
+                                                accessible={true}
+                                                collapsable={false}
+                                                focusable={true}
+                                                nativeID="animatedComponent"
+                                                onClick={[Function]}
+                                                onResponderGrant={[Function]}
+                                                onResponderMove={[Function]}
+                                                onResponderRelease={[Function]}
+                                                onResponderTerminate={[Function]}
+                                                onResponderTerminationRequest={[Function]}
+                                                onStartShouldSetResponder={[Function]}
+                                                style={
+                                                  Object {
+                                                    "alignItems": "center",
+                                                    "flexDirection": "row",
+                                                    "justifyContent": "space-between",
+                                                    "opacity": 1,
+                                                    "paddingVertical": 15,
+                                                  }
+                                                }
+                                              >
+                                                <View
+                                                  style={
+                                                    Object {
+                                                      "flex": 1,
+                                                      "paddingRight": 4,
+                                                    }
+                                                  }
+                                                >
+                                                  <Text
+                                                    style={
+                                                      Object {
+                                                        "color": "rgb(28, 28, 30)",
+                                                        "fontWeight": "600",
+                                                        "marginBottom": 4,
+                                                      }
+                                                    }
+                                                  >
+                                                    Decrypt
+                                                  </Text>
+                                                  <Text
+                                                    style={
+                                                      Object {
+                                                        "color": "rgb(28, 28, 30)",
+                                                        "marginBottom": 4,
+                                                      }
+                                                    }
+                                                  >
+                                                    10 hours ago
+                                                     
+                                                    • Bitcoin
+                                                  </Text>
+                                                  <Text
+                                                    style={
+                                                      Object {
+                                                        "color": "dimgray",
+                                                        "flex": 1,
+                                                        "flexWrap": "wrap",
+                                                      }
+                                                    }
+                                                  >
+                                                    El Salvador's Chivo Bitcoin Wallet Still a Headache for Locals
+                                                  </Text>
+                                                </View>
+                                                <View>
+                                                  <Image
+                                                    source={
+                                                      Object {
+                                                        "uri": "https://i.picsum.photos/id/952/200/200.jpg?hmac=6jMF0yOT214qb0hW6aUyexMo9flTRxyQbV8jYPcVolM",
+                                                      }
+                                                    }
+                                                    style={
+                                                      Object {
+                                                        "borderRadius": 5,
+                                                        "height": 60,
+                                                        "width": 60,
+                                                      }
+                                                    }
+                                                  />
+                                                </View>
+                                              </View>
+                                              <View
+                                                accessible={true}
+                                                collapsable={false}
+                                                focusable={true}
+                                                nativeID="animatedComponent"
+                                                onClick={[Function]}
+                                                onResponderGrant={[Function]}
+                                                onResponderMove={[Function]}
+                                                onResponderRelease={[Function]}
+                                                onResponderTerminate={[Function]}
+                                                onResponderTerminationRequest={[Function]}
+                                                onStartShouldSetResponder={[Function]}
+                                                style={
+                                                  Object {
+                                                    "alignItems": "center",
+                                                    "flexDirection": "row",
+                                                    "justifyContent": "space-between",
+                                                    "opacity": 1,
+                                                    "paddingVertical": 15,
+                                                  }
+                                                }
+                                              >
+                                                <View
+                                                  style={
+                                                    Object {
+                                                      "flex": 1,
+                                                      "paddingRight": 4,
+                                                    }
+                                                  }
+                                                >
+                                                  <Text
+                                                    style={
+                                                      Object {
+                                                        "color": "rgb(28, 28, 30)",
+                                                        "fontWeight": "600",
+                                                        "marginBottom": 4,
+                                                      }
+                                                    }
+                                                  >
+                                                    Decrypt
+                                                  </Text>
+                                                  <Text
+                                                    style={
+                                                      Object {
+                                                        "color": "rgb(28, 28, 30)",
+                                                        "marginBottom": 4,
+                                                      }
+                                                    }
+                                                  >
+                                                    12 hours ago
+                                                     
+                                                    
+                                                  </Text>
+                                                  <Text
+                                                    style={
+                                                      Object {
+                                                        "color": "dimgray",
+                                                        "flex": 1,
+                                                        "flexWrap": "wrap",
+                                                      }
+                                                    }
+                                                  >
+                                                    Germany's New Government Is Bringing Crypto Front and Center
+                                                  </Text>
+                                                </View>
+                                                <View>
+                                                  <Image
+                                                    source={
+                                                      Object {
+                                                        "uri": "https://i.picsum.photos/id/367/200/200.jpg?hmac=6NmiWxiENMBIeAXEfu9fN20uigiBudgYzqHfz-eXZYk",
+                                                      }
+                                                    }
+                                                    style={
+                                                      Object {
+                                                        "borderRadius": 5,
+                                                        "height": 60,
+                                                        "width": 60,
+                                                      }
+                                                    }
+                                                  />
+                                                </View>
+                                              </View>
+                                              <View
+                                                accessible={true}
+                                                collapsable={false}
+                                                focusable={true}
+                                                nativeID="animatedComponent"
+                                                onClick={[Function]}
+                                                onResponderGrant={[Function]}
+                                                onResponderMove={[Function]}
+                                                onResponderRelease={[Function]}
+                                                onResponderTerminate={[Function]}
+                                                onResponderTerminationRequest={[Function]}
+                                                onStartShouldSetResponder={[Function]}
+                                                style={
+                                                  Object {
+                                                    "alignItems": "center",
+                                                    "flexDirection": "row",
+                                                    "justifyContent": "space-between",
+                                                    "opacity": 1,
+                                                    "paddingVertical": 15,
+                                                  }
+                                                }
+                                              >
+                                                <View
+                                                  style={
+                                                    Object {
+                                                      "flex": 1,
+                                                      "paddingRight": 4,
+                                                    }
+                                                  }
+                                                >
+                                                  <Text
+                                                    style={
+                                                      Object {
+                                                        "color": "rgb(28, 28, 30)",
+                                                        "fontWeight": "600",
+                                                        "marginBottom": 4,
+                                                      }
+                                                    }
+                                                  >
+                                                    Bloomberg
+                                                  </Text>
+                                                  <Text
+                                                    style={
+                                                      Object {
+                                                        "color": "rgb(28, 28, 30)",
+                                                        "marginBottom": 4,
+                                                      }
+                                                    }
+                                                  >
+                                                    24 hours ago
+                                                     
+                                                    • Bitcoin
+                                                  </Text>
+                                                  <Text
+                                                    style={
+                                                      Object {
+                                                        "color": "dimgray",
+                                                        "flex": 1,
+                                                        "flexWrap": "wrap",
+                                                      }
+                                                    }
+                                                  >
+                                                    Bitcoin Retreats 20% From Record, Joining Risk-Asset Sell-Off
+                                                  </Text>
+                                                </View>
+                                                <View>
+                                                  <Image
+                                                    source={
+                                                      Object {
+                                                        "uri": "https://i.picsum.photos/id/555/200/200.jpg?hmac=SPdHg_AxaDTFgZCoJymemxudcniLOiP2P5k6T8Eb-kc",
+                                                      }
+                                                    }
+                                                    style={
+                                                      Object {
+                                                        "borderRadius": 5,
+                                                        "height": 60,
+                                                        "width": 60,
+                                                      }
+                                                    }
+                                                  />
+                                                </View>
+                                              </View>
+                                              <View
+                                                accessible={true}
+                                                collapsable={false}
+                                                focusable={true}
+                                                nativeID="animatedComponent"
+                                                onClick={[Function]}
+                                                onResponderGrant={[Function]}
+                                                onResponderMove={[Function]}
+                                                onResponderRelease={[Function]}
+                                                onResponderTerminate={[Function]}
+                                                onResponderTerminationRequest={[Function]}
+                                                onStartShouldSetResponder={[Function]}
+                                                style={
+                                                  Object {
+                                                    "alignItems": "center",
+                                                    "flexDirection": "row",
+                                                    "justifyContent": "space-between",
+                                                    "opacity": 1,
+                                                    "paddingVertical": 15,
+                                                  }
+                                                }
+                                              >
+                                                <View
+                                                  style={
+                                                    Object {
+                                                      "flex": 1,
+                                                      "paddingRight": 4,
+                                                    }
+                                                  }
+                                                >
+                                                  <Text
+                                                    style={
+                                                      Object {
+                                                        "color": "rgb(28, 28, 30)",
+                                                        "fontWeight": "600",
+                                                        "marginBottom": 4,
+                                                      }
+                                                    }
+                                                  >
+                                                    Decrypt
+                                                  </Text>
+                                                  <Text
+                                                    style={
+                                                      Object {
+                                                        "color": "rgb(28, 28, 30)",
+                                                        "marginBottom": 4,
+                                                      }
+                                                    }
+                                                  >
+                                                    Nov 26
+                                                     
+                                                    • Ethereum
+                                                  </Text>
+                                                  <Text
+                                                    style={
+                                                      Object {
+                                                        "color": "dimgray",
+                                                        "flex": 1,
+                                                        "flexWrap": "wrap",
+                                                      }
+                                                    }
+                                                  >
+                                                    Damien Hirst Turns His Drake Album Art into 10,000 Ethereum NFTs
+                                                  </Text>
+                                                </View>
+                                                <View>
+                                                  <Image
+                                                    source={
+                                                      Object {
+                                                        "uri": "https://i.picsum.photos/id/356/200/200.jpg?hmac=Pd7TXMbO4gSTwhtmub1DcSo1vPpeCVRsuY_BRE_llmU",
+                                                      }
+                                                    }
+                                                    style={
+                                                      Object {
+                                                        "borderRadius": 5,
+                                                        "height": 60,
+                                                        "width": 60,
+                                                      }
+                                                    }
+                                                  />
+                                                </View>
+                                              </View>
+                                              <View
+                                                accessible={true}
+                                                collapsable={false}
+                                                focusable={true}
+                                                nativeID="animatedComponent"
+                                                onClick={[Function]}
+                                                onResponderGrant={[Function]}
+                                                onResponderMove={[Function]}
+                                                onResponderRelease={[Function]}
+                                                onResponderTerminate={[Function]}
+                                                onResponderTerminationRequest={[Function]}
+                                                onStartShouldSetResponder={[Function]}
+                                                style={
+                                                  Object {
+                                                    "alignItems": "center",
+                                                    "flexDirection": "row",
+                                                    "justifyContent": "space-between",
+                                                    "opacity": 1,
+                                                    "paddingVertical": 15,
+                                                  }
+                                                }
+                                              >
+                                                <View
+                                                  style={
+                                                    Object {
+                                                      "flex": 1,
+                                                      "paddingRight": 4,
+                                                    }
+                                                  }
+                                                >
+                                                  <Text
+                                                    style={
+                                                      Object {
+                                                        "color": "rgb(28, 28, 30)",
+                                                        "fontWeight": "600",
+                                                        "marginBottom": 4,
+                                                      }
+                                                    }
+                                                  >
+                                                    CoinDesk
+                                                  </Text>
+                                                  <Text
+                                                    style={
+                                                      Object {
+                                                        "color": "rgb(28, 28, 30)",
+                                                        "marginBottom": 4,
+                                                      }
+                                                    }
+                                                  >
+                                                    Nov 26
+                                                     
+                                                    • Bitcoin
+                                                  </Text>
+                                                  <Text
+                                                    style={
+                                                      Object {
+                                                        "color": "dimgray",
+                                                        "flex": 1,
+                                                        "flexWrap": "wrap",
+                                                      }
+                                                    }
+                                                  >
+                                                    El Salvador Buys 100 More Bitcoins as Crypto Market Fails
+                                                  </Text>
+                                                </View>
+                                                <View>
+                                                  <Image
+                                                    source={
+                                                      Object {
+                                                        "uri": "https://i.picsum.photos/id/201/200/200.jpg?hmac=bDRwJ_w2on8pQ9tbqlqMghsddYlj20LS9E3l3NswK7Q",
+                                                      }
+                                                    }
+                                                    style={
+                                                      Object {
+                                                        "borderRadius": 5,
+                                                        "height": 60,
+                                                        "width": 60,
+                                                      }
+                                                    }
+                                                  />
+                                                </View>
+                                              </View>
+                                            </View>
+                                          </View>
+                                        </View>
+                                      </RCTScrollView>
+                                    </RNCSafeAreaView>
+                                  </View>
+                                </View>
+                              </RNSScreen>
+                            </RNSScreenContainer>
+                            <View
+                              collapsable={false}
+                              nativeID="animatedComponent"
+                              onLayout={[Function]}
+                              pointerEvents="auto"
+                              style={
+                                Object {
+                                  "backgroundColor": "rgb(255, 255, 255)",
+                                  "borderTopColor": "rgb(216, 216, 216)",
+                                  "borderTopWidth": 0.5,
+                                  "bottom": 0,
+                                  "elevation": 8,
+                                  "height": 49,
+                                  "left": 0,
+                                  "paddingBottom": 0,
+                                  "paddingHorizontal": 0,
+                                  "position": null,
+                                  "right": 0,
+                                  "transform": Array [
+                                    Object {
+                                      "translateY": 0,
+                                    },
+                                  ],
+                                }
+                              }
+                            >
+                              <View
+                                pointerEvents="none"
+                                style={
+                                  Object {
+                                    "bottom": 0,
+                                    "left": 0,
+                                    "position": "absolute",
+                                    "right": 0,
+                                    "top": 0,
+                                  }
+                                }
+                              />
+                              <View
+                                accessibilityRole="tablist"
+                                style={
+                                  Object {
+                                    "flex": 1,
+                                    "flexDirection": "row",
+                                  }
+                                }
+                              >
+                                <View
+                                  accessibilityLabel="Home, tab, 1 of 5"
+                                  accessibilityRole="button"
+                                  accessibilityState={
+                                    Object {
+                                      "selected": true,
+                                    }
+                                  }
+                                  accessibilityStates={
+                                    Array [
+                                      "selected",
+                                    ]
+                                  }
+                                  accessible={true}
+                                  collapsable={false}
+                                  focusable={true}
+                                  onBlur={[Function]}
+                                  onClick={[Function]}
+                                  onFocus={[Function]}
+                                  onResponderGrant={[Function]}
+                                  onResponderMove={[Function]}
+                                  onResponderRelease={[Function]}
+                                  onResponderTerminate={[Function]}
+                                  onResponderTerminationRequest={[Function]}
+                                  onStartShouldSetResponder={[Function]}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "alignItems": "center",
+                                        "flex": 1,
+                                      },
+                                      Object {
+                                        "backgroundColor": "transparent",
+                                      },
+                                      Object {
+                                        "flexDirection": "column",
+                                        "justifyContent": "flex-end",
+                                      },
+                                      undefined,
+                                    ]
+                                  }
+                                >
+                                  <View
+                                    style={
+                                      Array [
+                                        Object {
+                                          "flex": 1,
+                                        },
+                                        undefined,
+                                      ]
+                                    }
+                                  >
+                                    <View
+                                      style={
+                                        Array [
+                                          Object {
+                                            "alignItems": "center",
+                                            "alignSelf": "center",
+                                            "height": "100%",
+                                            "justifyContent": "center",
+                                            "minWidth": 25,
+                                            "position": "absolute",
+                                            "width": "100%",
+                                          },
+                                          Object {
+                                            "opacity": 1,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        style={
+                                          Object {
+                                            "alignItems": "center",
+                                            "justifyContent": "center",
+                                          }
+                                        }
+                                      >
+                                        <Image
+                                          resizeMode="contain"
+                                          source={
+                                            Object {
+                                              "testUri": "../../../assets/home.png",
+                                            }
+                                          }
+                                          style={
+                                            Object {
+                                              "height": 20,
+                                              "marginBottom": 4,
+                                              "marginTop": 8,
+                                              "tintColor": "#4169e1",
+                                              "width": 20,
+                                            }
+                                          }
+                                        />
+                                        <Text
+                                          style={
+                                            Object {
+                                              "color": "#4169e1",
+                                              "fontSize": 10,
+                                            }
+                                          }
+                                        >
+                                          Home
+                                        </Text>
+                                      </View>
+                                    </View>
+                                    <View
+                                      style={
+                                        Array [
+                                          Object {
+                                            "alignItems": "center",
+                                            "alignSelf": "center",
+                                            "height": "100%",
+                                            "justifyContent": "center",
+                                            "minWidth": 25,
+                                            "position": "absolute",
+                                            "width": "100%",
+                                          },
+                                          Object {
+                                            "opacity": 0,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        style={
+                                          Object {
+                                            "alignItems": "center",
+                                            "justifyContent": "center",
+                                          }
+                                        }
+                                      >
+                                        <Image
+                                          resizeMode="contain"
+                                          source={
+                                            Object {
+                                              "testUri": "../../../assets/home.png",
+                                            }
+                                          }
+                                          style={
+                                            Object {
+                                              "height": 20,
+                                              "marginBottom": 4,
+                                              "marginTop": 8,
+                                              "tintColor": "gray",
+                                              "width": 20,
+                                            }
+                                          }
+                                        />
+                                        <Text
+                                          style={
+                                            Object {
+                                              "color": "gray",
+                                              "fontSize": 10,
+                                            }
+                                          }
+                                        >
+                                          Home
+                                        </Text>
+                                      </View>
+                                    </View>
+                                  </View>
+                                </View>
+                                <View
+                                  accessibilityLabel="Portfolio, tab, 2 of 5"
+                                  accessibilityRole="button"
+                                  accessibilityState={
+                                    Object {
+                                      "selected": false,
+                                    }
+                                  }
+                                  accessibilityStates={Array []}
+                                  accessible={true}
+                                  collapsable={false}
+                                  focusable={true}
+                                  onBlur={[Function]}
+                                  onClick={[Function]}
+                                  onFocus={[Function]}
+                                  onResponderGrant={[Function]}
+                                  onResponderMove={[Function]}
+                                  onResponderRelease={[Function]}
+                                  onResponderTerminate={[Function]}
+                                  onResponderTerminationRequest={[Function]}
+                                  onStartShouldSetResponder={[Function]}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "alignItems": "center",
+                                        "flex": 1,
+                                      },
+                                      Object {
+                                        "backgroundColor": "transparent",
+                                      },
+                                      Object {
+                                        "flexDirection": "column",
+                                        "justifyContent": "flex-end",
+                                      },
+                                      undefined,
+                                    ]
+                                  }
+                                >
+                                  <View
+                                    style={
+                                      Array [
+                                        Object {
+                                          "flex": 1,
+                                        },
+                                        undefined,
+                                      ]
+                                    }
+                                  >
+                                    <View
+                                      style={
+                                        Array [
+                                          Object {
+                                            "alignItems": "center",
+                                            "alignSelf": "center",
+                                            "height": "100%",
+                                            "justifyContent": "center",
+                                            "minWidth": 25,
+                                            "position": "absolute",
+                                            "width": "100%",
+                                          },
+                                          Object {
+                                            "opacity": 0,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        style={
+                                          Object {
+                                            "alignItems": "center",
+                                            "justifyContent": "center",
+                                          }
+                                        }
+                                      >
+                                        <Image
+                                          resizeMode="contain"
+                                          source={
+                                            Object {
+                                              "testUri": "../../../assets/portfolio.png",
+                                            }
+                                          }
+                                          style={
+                                            Object {
+                                              "height": 20,
+                                              "marginBottom": 4,
+                                              "marginTop": 8,
+                                              "tintColor": "#4169e1",
+                                              "width": 20,
+                                            }
+                                          }
+                                        />
+                                        <Text
+                                          style={
+                                            Object {
+                                              "color": "#4169e1",
+                                              "fontSize": 10,
+                                            }
+                                          }
+                                        >
+                                          Portfolio
+                                        </Text>
+                                      </View>
+                                    </View>
+                                    <View
+                                      style={
+                                        Array [
+                                          Object {
+                                            "alignItems": "center",
+                                            "alignSelf": "center",
+                                            "height": "100%",
+                                            "justifyContent": "center",
+                                            "minWidth": 25,
+                                            "position": "absolute",
+                                            "width": "100%",
+                                          },
+                                          Object {
+                                            "opacity": 1,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        style={
+                                          Object {
+                                            "alignItems": "center",
+                                            "justifyContent": "center",
+                                          }
+                                        }
+                                      >
+                                        <Image
+                                          resizeMode="contain"
+                                          source={
+                                            Object {
+                                              "testUri": "../../../assets/portfolio.png",
+                                            }
+                                          }
+                                          style={
+                                            Object {
+                                              "height": 20,
+                                              "marginBottom": 4,
+                                              "marginTop": 8,
+                                              "tintColor": "gray",
+                                              "width": 20,
+                                            }
+                                          }
+                                        />
+                                        <Text
+                                          style={
+                                            Object {
+                                              "color": "gray",
+                                              "fontSize": 10,
+                                            }
+                                          }
+                                        >
+                                          Portfolio
+                                        </Text>
+                                      </View>
+                                    </View>
+                                  </View>
+                                </View>
+                                <View
+                                  accessibilityLabel="TransferIcon, tab, 3 of 5"
+                                  accessibilityRole="button"
+                                  accessibilityState={
+                                    Object {
+                                      "selected": false,
+                                    }
+                                  }
+                                  accessibilityStates={Array []}
+                                  accessible={true}
+                                  collapsable={false}
+                                  focusable={true}
+                                  onBlur={[Function]}
+                                  onClick={[Function]}
+                                  onFocus={[Function]}
+                                  onResponderGrant={[Function]}
+                                  onResponderMove={[Function]}
+                                  onResponderRelease={[Function]}
+                                  onResponderTerminate={[Function]}
+                                  onResponderTerminationRequest={[Function]}
+                                  onStartShouldSetResponder={[Function]}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "alignItems": "center",
+                                        "flex": 1,
+                                      },
+                                      Object {
+                                        "backgroundColor": "transparent",
+                                      },
+                                      Object {
+                                        "flexDirection": "column",
+                                        "justifyContent": "flex-end",
+                                      },
+                                      undefined,
+                                    ]
+                                  }
+                                >
+                                  <View
+                                    style={
+                                      Array [
+                                        Object {
+                                          "flex": 1,
+                                        },
+                                        undefined,
+                                      ]
+                                    }
+                                  >
+                                    <View
+                                      style={
+                                        Array [
+                                          Object {
+                                            "alignItems": "center",
+                                            "alignSelf": "center",
+                                            "height": "100%",
+                                            "justifyContent": "center",
+                                            "minWidth": 25,
+                                            "position": "absolute",
+                                            "width": "100%",
+                                          },
+                                          Object {
+                                            "opacity": 0,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        style={
+                                          Object {
+                                            "alignItems": "center",
+                                            "justifyContent": "center",
+                                          }
+                                        }
+                                      >
+                                        <Image
+                                          resizeMode="contain"
+                                          source={
+                                            Object {
+                                              "testUri": "../../../assets/transfer.png",
+                                            }
+                                          }
+                                          style={
+                                            Object {
+                                              "height": 40,
+                                              "marginBottom": 4,
+                                              "marginTop": 8,
+                                              "tintColor": "#4169e1",
+                                              "width": 40,
+                                            }
+                                          }
+                                        />
+                                      </View>
+                                    </View>
+                                    <View
+                                      style={
+                                        Array [
+                                          Object {
+                                            "alignItems": "center",
+                                            "alignSelf": "center",
+                                            "height": "100%",
+                                            "justifyContent": "center",
+                                            "minWidth": 25,
+                                            "position": "absolute",
+                                            "width": "100%",
+                                          },
+                                          Object {
+                                            "opacity": 1,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        style={
+                                          Object {
+                                            "alignItems": "center",
+                                            "justifyContent": "center",
+                                          }
+                                        }
+                                      >
+                                        <Image
+                                          resizeMode="contain"
+                                          source={
+                                            Object {
+                                              "testUri": "../../../assets/transfer.png",
+                                            }
+                                          }
+                                          style={
+                                            Object {
+                                              "height": 40,
+                                              "marginBottom": 4,
+                                              "marginTop": 8,
+                                              "tintColor": "#4169e1",
+                                              "width": 40,
+                                            }
+                                          }
+                                        />
+                                      </View>
+                                    </View>
+                                  </View>
+                                </View>
+                                <View
+                                  accessibilityLabel="Trade, tab, 4 of 5"
+                                  accessibilityRole="button"
+                                  accessibilityState={
+                                    Object {
+                                      "selected": false,
+                                    }
+                                  }
+                                  accessibilityStates={Array []}
+                                  accessible={true}
+                                  collapsable={false}
+                                  focusable={true}
+                                  onBlur={[Function]}
+                                  onClick={[Function]}
+                                  onFocus={[Function]}
+                                  onResponderGrant={[Function]}
+                                  onResponderMove={[Function]}
+                                  onResponderRelease={[Function]}
+                                  onResponderTerminate={[Function]}
+                                  onResponderTerminationRequest={[Function]}
+                                  onStartShouldSetResponder={[Function]}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "alignItems": "center",
+                                        "flex": 1,
+                                      },
+                                      Object {
+                                        "backgroundColor": "transparent",
+                                      },
+                                      Object {
+                                        "flexDirection": "column",
+                                        "justifyContent": "flex-end",
+                                      },
+                                      undefined,
+                                    ]
+                                  }
+                                >
+                                  <View
+                                    style={
+                                      Array [
+                                        Object {
+                                          "flex": 1,
+                                        },
+                                        undefined,
+                                      ]
+                                    }
+                                  >
+                                    <View
+                                      style={
+                                        Array [
+                                          Object {
+                                            "alignItems": "center",
+                                            "alignSelf": "center",
+                                            "height": "100%",
+                                            "justifyContent": "center",
+                                            "minWidth": 25,
+                                            "position": "absolute",
+                                            "width": "100%",
+                                          },
+                                          Object {
+                                            "opacity": 0,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        style={
+                                          Object {
+                                            "alignItems": "center",
+                                            "justifyContent": "center",
+                                          }
+                                        }
+                                      >
+                                        <Image
+                                          resizeMode="contain"
+                                          source={
+                                            Object {
+                                              "testUri": "../../../assets/prices.png",
+                                            }
+                                          }
+                                          style={
+                                            Object {
+                                              "height": 20,
+                                              "marginBottom": 4,
+                                              "marginTop": 8,
+                                              "tintColor": "#4169e1",
+                                              "width": 20,
+                                            }
+                                          }
+                                        />
+                                        <Text
+                                          style={
+                                            Object {
+                                              "color": "#4169e1",
+                                              "fontSize": 10,
+                                            }
+                                          }
+                                        >
+                                          Trade
+                                        </Text>
+                                      </View>
+                                    </View>
+                                    <View
+                                      style={
+                                        Array [
+                                          Object {
+                                            "alignItems": "center",
+                                            "alignSelf": "center",
+                                            "height": "100%",
+                                            "justifyContent": "center",
+                                            "minWidth": 25,
+                                            "position": "absolute",
+                                            "width": "100%",
+                                          },
+                                          Object {
+                                            "opacity": 1,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        style={
+                                          Object {
+                                            "alignItems": "center",
+                                            "justifyContent": "center",
+                                          }
+                                        }
+                                      >
+                                        <Image
+                                          resizeMode="contain"
+                                          source={
+                                            Object {
+                                              "testUri": "../../../assets/prices.png",
+                                            }
+                                          }
+                                          style={
+                                            Object {
+                                              "height": 20,
+                                              "marginBottom": 4,
+                                              "marginTop": 8,
+                                              "tintColor": "gray",
+                                              "width": 20,
+                                            }
+                                          }
+                                        />
+                                        <Text
+                                          style={
+                                            Object {
+                                              "color": "gray",
+                                              "fontSize": 10,
+                                            }
+                                          }
+                                        >
+                                          Trade
+                                        </Text>
+                                      </View>
+                                    </View>
+                                  </View>
+                                </View>
+                                <View
+                                  accessibilityLabel="For You, tab, 5 of 5"
+                                  accessibilityRole="button"
+                                  accessibilityState={
+                                    Object {
+                                      "selected": false,
+                                    }
+                                  }
+                                  accessibilityStates={Array []}
+                                  accessible={true}
+                                  collapsable={false}
+                                  focusable={true}
+                                  onBlur={[Function]}
+                                  onClick={[Function]}
+                                  onFocus={[Function]}
+                                  onResponderGrant={[Function]}
+                                  onResponderMove={[Function]}
+                                  onResponderRelease={[Function]}
+                                  onResponderTerminate={[Function]}
+                                  onResponderTerminationRequest={[Function]}
+                                  onStartShouldSetResponder={[Function]}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "alignItems": "center",
+                                        "flex": 1,
+                                      },
+                                      Object {
+                                        "backgroundColor": "transparent",
+                                      },
+                                      Object {
+                                        "flexDirection": "column",
+                                        "justifyContent": "flex-end",
+                                      },
+                                      undefined,
+                                    ]
+                                  }
+                                >
+                                  <View
+                                    style={
+                                      Array [
+                                        Object {
+                                          "flex": 1,
+                                        },
+                                        undefined,
+                                      ]
+                                    }
+                                  >
+                                    <View
+                                      style={
+                                        Array [
+                                          Object {
+                                            "alignItems": "center",
+                                            "alignSelf": "center",
+                                            "height": "100%",
+                                            "justifyContent": "center",
+                                            "minWidth": 25,
+                                            "position": "absolute",
+                                            "width": "100%",
+                                          },
+                                          Object {
+                                            "opacity": 0,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        style={
+                                          Object {
+                                            "alignItems": "center",
+                                            "justifyContent": "center",
+                                          }
+                                        }
+                                      >
+                                        <Image
+                                          resizeMode="contain"
+                                          source={
+                                            Object {
+                                              "testUri": "../../../assets/settings.png",
+                                            }
+                                          }
+                                          style={
+                                            Object {
+                                              "height": 20,
+                                              "marginBottom": 4,
+                                              "marginTop": 8,
+                                              "tintColor": "#4169e1",
+                                              "width": 20,
+                                            }
+                                          }
+                                        />
+                                        <Text
+                                          style={
+                                            Object {
+                                              "color": "#4169e1",
+                                              "fontSize": 10,
+                                            }
+                                          }
+                                        >
+                                          For You
+                                        </Text>
+                                      </View>
+                                    </View>
+                                    <View
+                                      style={
+                                        Array [
+                                          Object {
+                                            "alignItems": "center",
+                                            "alignSelf": "center",
+                                            "height": "100%",
+                                            "justifyContent": "center",
+                                            "minWidth": 25,
+                                            "position": "absolute",
+                                            "width": "100%",
+                                          },
+                                          Object {
+                                            "opacity": 1,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <View
+                                        style={
+                                          Object {
+                                            "alignItems": "center",
+                                            "justifyContent": "center",
+                                          }
+                                        }
+                                      >
+                                        <Image
+                                          resizeMode="contain"
+                                          source={
+                                            Object {
+                                              "testUri": "../../../assets/settings.png",
+                                            }
+                                          }
+                                          style={
+                                            Object {
+                                              "height": 20,
+                                              "marginBottom": 4,
+                                              "marginTop": 8,
+                                              "tintColor": "gray",
+                                              "width": 20,
+                                            }
+                                          }
+                                        />
+                                        <Text
+                                          style={
+                                            Object {
+                                              "color": "gray",
+                                              "fontSize": 10,
+                                            }
+                                          }
+                                        >
+                                          For You
+                                        </Text>
+                                      </View>
+                                    </View>
+                                  </View>
+                                </View>
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                        <View
+                          collapsable={false}
+                          nativeID="animatedComponent"
+                          pointerEvents="box-none"
+                          style={Object {}}
+                        />
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </RNSScreen>
+          </RNSScreenContainer>
+          <View
+            pointerEvents="box-none"
+            style={
+              Object {
+                "height": 44,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "zIndex": 1,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </RNCSafeAreaProvider>
+</RNCSafeAreaProvider>
+`;

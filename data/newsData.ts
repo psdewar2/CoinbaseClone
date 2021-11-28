@@ -1,0 +1,42 @@
+export const articles = [
+  {
+    siteName: 'Decrypt',
+    datePublished: '10 hours ago',
+    relatedToken: 'Bitcoin',
+    title: "El Salvador's Chivo Bitcoin Wallet Still a Headache for Locals",
+    link: 'https://decrypt.co/87043/el-salvadors-chivo-bitcoin-wallet-still-a-headache-for-salvadorans',
+    src: 'https://i.picsum.photos/id/952/200/200.jpg?hmac=6jMF0yOT214qb0hW6aUyexMo9flTRxyQbV8jYPcVolM',
+  },
+  {
+    siteName: 'Decrypt',
+    datePublished: '12 hours ago',
+    relatedToken: '',
+    title: "Germany's New Government Is Bringing Crypto Front and Center",
+    link: 'https://decrypt.co/87055/germany-government-is-bringing-crypto-front-center',
+    src: 'https://i.picsum.photos/id/367/200/200.jpg?hmac=6NmiWxiENMBIeAXEfu9fN20uigiBudgYzqHfz-eXZYk',
+  },
+  {
+    siteName: 'Bloomberg',
+    datePublished: '24 hours ago',
+    relatedToken: 'Bitcoin',
+    title: 'Bitcoin Retreats 20% From Record, Joining Risk-Asset Sell-Off',
+    link: 'https://www.bloomberg.com/news/articles/2021-11-26/bitcoin-retreats-20-from-all-time-high-set-earlier-in-november',
+    src: 'https://i.picsum.photos/id/555/200/200.jpg?hmac=SPdHg_AxaDTFgZCoJymemxudcniLOiP2P5k6T8Eb-kc',
+  },
+  {
+    siteName: 'Decrypt',
+    datePublished: 'Nov 26',
+    relatedToken: 'Ethereum',
+    title: 'Damien Hirst Turns His Drake Album Art into 10,000 Ethereum NFTs',
+    link: 'https://decrypt.co/87035/damien-hirst-turns-his-drake-album-art-into-10000-ethereum-nfts',
+    src: 'https://i.picsum.photos/id/356/200/200.jpg?hmac=Pd7TXMbO4gSTwhtmub1DcSo1vPpeCVRsuY_BRE_llmU',
+  },
+  {
+    siteName: 'CoinDesk',
+    datePublished: 'Nov 26',
+    relatedToken: 'Bitcoin',
+    title: 'El Salvador Buys 100 More Bitcoins as Crypto Market Fails',
+    link: 'https://www.coindesk.com/business/2021/11/26/el-salvador-buys-100-more-bitcoins-as-crypto-market-falls',
+    src: 'https://i.picsum.photos/id/201/200/200.jpg?hmac=bDRwJ_w2on8pQ9tbqlqMghsddYlj20LS9E3l3NswK7Q',
+  },
+];

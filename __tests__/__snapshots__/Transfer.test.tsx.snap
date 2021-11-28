@@ -1,0 +1,435 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Transfer renders without crashing 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFF",
+      "flex": 1,
+    }
+  }
+>
+  <RNGestureHandlerButton
+    collapsable={false}
+    onGestureEvent={[Function]}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    onHandlerStateChange={[Function]}
+    rippleColor={0}
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      nativeID="animatedComponent"
+      style={
+        Object {
+          "opacity": 1,
+          "paddingLeft": 20,
+          "paddingTop": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "rgb(28, 28, 30)",
+            "fontWeight": "600",
+          }
+        }
+      >
+        Close
+      </Text>
+    </View>
+  </RNGestureHandlerButton>
+  <RNGestureHandlerButton
+    collapsable={false}
+    onGestureEvent={[Function]}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    onHandlerStateChange={[Function]}
+    rippleColor={0}
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      nativeID="animatedComponent"
+      style={
+        Object {
+          "flexDirection": "row",
+          "opacity": 1,
+          "padding": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "width": 60,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 20,
+              "fontWeight": "600",
+            }
+          }
+        >
+          +
+        </Text>
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontWeight": "600",
+              "marginBottom": 4,
+            }
+          }
+        >
+          Buy
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "gray",
+            }
+          }
+        >
+          Buy crypto with cash
+        </Text>
+      </View>
+    </View>
+  </RNGestureHandlerButton>
+  <RNGestureHandlerButton
+    collapsable={false}
+    onGestureEvent={[Function]}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    onHandlerStateChange={[Function]}
+    rippleColor={0}
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      nativeID="animatedComponent"
+      style={
+        Object {
+          "flexDirection": "row",
+          "opacity": 1,
+          "padding": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "width": 60,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 20,
+              "fontWeight": "600",
+            }
+          }
+        >
+          -
+        </Text>
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontWeight": "600",
+              "marginBottom": 4,
+            }
+          }
+        >
+          Sell
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "gray",
+            }
+          }
+        >
+          Sell crypto for cash
+        </Text>
+      </View>
+    </View>
+  </RNGestureHandlerButton>
+  <RNGestureHandlerButton
+    collapsable={false}
+    onGestureEvent={[Function]}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    onHandlerStateChange={[Function]}
+    rippleColor={0}
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      nativeID="animatedComponent"
+      style={
+        Object {
+          "flexDirection": "row",
+          "opacity": 1,
+          "padding": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "width": 60,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 20,
+              "fontWeight": "600",
+            }
+          }
+        >
+          C
+        </Text>
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontWeight": "600",
+              "marginBottom": 4,
+            }
+          }
+        >
+          Convert
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "gray",
+            }
+          }
+        >
+          Convert one crypto to another
+        </Text>
+      </View>
+    </View>
+  </RNGestureHandlerButton>
+  <RNGestureHandlerButton
+    collapsable={false}
+    onGestureEvent={[Function]}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    onHandlerStateChange={[Function]}
+    rippleColor={0}
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      nativeID="animatedComponent"
+      style={
+        Object {
+          "flexDirection": "row",
+          "opacity": 1,
+          "padding": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "width": 60,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 20,
+              "fontWeight": "600",
+            }
+          }
+        >
+          S
+        </Text>
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontWeight": "600",
+              "marginBottom": 4,
+            }
+          }
+        >
+          Send
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "gray",
+            }
+          }
+        >
+          Send crypto to another wallet
+        </Text>
+      </View>
+    </View>
+  </RNGestureHandlerButton>
+  <RNGestureHandlerButton
+    collapsable={false}
+    onGestureEvent={[Function]}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    onHandlerStateChange={[Function]}
+    rippleColor={0}
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      nativeID="animatedComponent"
+      style={
+        Object {
+          "flexDirection": "row",
+          "opacity": 1,
+          "padding": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "width": 60,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 20,
+              "fontWeight": "600",
+            }
+          }
+        >
+          R
+        </Text>
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontWeight": "600",
+              "marginBottom": 4,
+            }
+          }
+        >
+          Receive
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "gray",
+            }
+          }
+        >
+          Receive crypto from another wallet
+        </Text>
+      </View>
+    </View>
+  </RNGestureHandlerButton>
+  <RNGestureHandlerButton
+    collapsable={false}
+    onGestureEvent={[Function]}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    onHandlerStateChange={[Function]}
+    rippleColor={0}
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      nativeID="animatedComponent"
+      style={
+        Object {
+          "flexDirection": "row",
+          "opacity": 1,
+          "padding": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "width": 60,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 20,
+              "fontWeight": "600",
+            }
+          }
+        >
+          B
+        </Text>
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontWeight": "600",
+              "marginBottom": 4,
+            }
+          }
+        >
+          Add cash / Cash out
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "gray",
+            }
+          }
+        >
+          Transfer balance to or from your bank
+        </Text>
+      </View>
+    </View>
+  </RNGestureHandlerButton>
+</View>
+`;

@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portfolio renders without crashing 1`] = `
+<RNCSafeAreaView
+  edges={
+    Array [
+      "top",
+    ]
+  }
+  style={
+    Object {
+      "backgroundColor": "#FFF",
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 20,
+            "paddingTop": 50,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 14,
+              "fontWeight": "500",
+            }
+          }
+        >
+          Portfolio Balance
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 29,
+              "fontWeight": "bold",
+              "paddingTop": 5,
+            }
+          }
+        >
+          $0.00
+        </Text>
+        <View
+          style={
+            Object {
+              "paddingBottom": 20,
+            }
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+</RNCSafeAreaView>
+`;

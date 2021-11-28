@@ -1,0 +1,6 @@
+module Pods_CoinbaseClone_CoinbaseCloneTests {
+  umbrella header "Pods-CoinbaseClone-CoinbaseCloneTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
